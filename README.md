@@ -63,16 +63,22 @@ Download all prediction results as a `CSV` file with details including sequence 
 We welcome contributions! Please contact us first to discuss changes you’d like to make. To get started:
 
 Fork the repository.
+
 Make your changes.
+
 Create a pull request.
+
 Invite us to review your changes.
 
 # Authors and acknowledgment
 The project was developed by:
 
 Yanwen Li
+
 Fengyuan Liu
+
 Renkui Wen
+
 
 
 
