@@ -34,7 +34,7 @@ Extract pLMs embedding: cd to the AFP_IGEMTianjin2025 dictionary, and run "pytho
 ## Model training and testing
 Cd to the AFP_IGEMTianjin2025 dictionary,and run "python3 AFP-pLMs_920im.py"
 The model will be trained and tested, and the results will be saved in the result fold.
-# Predict antifreeze protein
+# Usage
 After running `streamlit run afp_pre.py`, the following steps will be displayed in the web interface:
 ## Model Loading: 
 The application will first load the feature extraction (ProtT5) and prediction models. A progress indicator will show the loading status.
@@ -58,6 +58,7 @@ Expandable sections for raw model outputs (`logits`) and full sequences
 `Results` are sorted by confidence level
 ## Download Options:
 Download all prediction results as a `CSV` file with details including sequence names, lengths, probabilities, and predictions.
+
 
 
 
