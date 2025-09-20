@@ -23,7 +23,7 @@ The negative dataset was derived from 9493 seed proteins of Pfam protein familie
 Balance dataset: The dataset was divided into training and test sets, 644 AFPs and 644 non-AFPs were randomly selected as positive and negative samples to form the training dataset, and the remaining 276 AFPs and 8849 non-AFPs were designated as the test dataset
 
 Imbalanced dataset: To further validate the predictive performance and facilitate subsequent research, we introduced an imbalanced dataset. This dataset was divided with 70% AFPs and non-AFPs for training and the remaining 30% for independent testing respectively.
-# Deployment of AFP_IGEMTianjin2025
+# Installation
 ## Set up environment for AFP_IGEMTianjin2025
 Set ProtTrans follow procedure from https://github.com/agemagician/ProtTrans/tree/master.
 ```
@@ -58,6 +58,7 @@ Expandable sections for raw model outputs (`logits`) and full sequences
 `Results` are sorted by confidence level
 ## Download Options:
 Download all prediction results as a `CSV` file with details including sequence names, lengths, probabilities, and predictions.
+
 
 
 
